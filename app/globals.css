@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    .body-regular{
+        @apply text-14 font-normal tracking-0 leading-19 text-darkNavy
+    }
+    .body-emphasized{
+        @apply text-14 font-bold tracking-0 leading-19 text-darkNavy
+    }
+    .card-title{
+        @apply text-24 font-800 tracking-0 leading-33 text-darkNavy
+    }
+    .manrope-medium{
+        @apply text-16 font-semibold tracking-0 leading-22 text-darkNavy capitalize
+    }
+    .manrope-extrabold{
+        @apply text-30 font-800 tracking-0 leading-41 text-darkNavy
+    }
+    .manrope-regular{
+        @apply text-12 font-normal tracking-0 leading-17 text-darkNavy
+    }
+    .inner-card-title{
+        @apply text-18 font-bold tracking-0 leading-24 text-darkNavy capitalize
+    }
+    .manrope-bold{
+        @apply text-14 font-bold tracking-0 leading-19 text-darkNavy capitalize
+    }
+    .manrope-bold{
+        @apply text-14 font-bold tracking-0 leading-19 text-darkNavy capitalize
+    }
+    .manrope-bold-lg{
+        @apply text-22 font-bold tracking-0 leading-30 text-darkNavy capitalize
+    }
+    .manrope-medium-sm{
+        @apply text-14 font-semibold tracking-0 leading-19 text-darkNavy capitalize
+    }
+    .manrope-regular-lg{
+        @apply text-14 font-normal tracking-0 leading-19 text-darkNavy capitalize
+    }
+    .manrope-regular-md{
+        @apply text-13 font-semibold tracking-0 leading-18 text-darkNavy capitalize
+    }
+    .body-secondary-info{
+        @apply text-14 font-semibold tracking-0 leading-19 text-grey
+    }
+}
