@@ -11,12 +11,12 @@ const config: Config = {
       colors: {
         primary: "#705AAA",
         secondary: "#CBC8D4",
-        activeStateBg1: "#01F0D0",
+        teal: "#01F0D0",
         activeStateBg2: "#D8FCF7",
         green: "#0BD984",
         darkNavy: "#072635",
         darkTeal: "#0C3D5D",
-        teal: "#084C77",
+        lightBlue: "#084C77",
         blue: "#006AAC",
         brightBlue: "#007BC7",
         grey: "#707070",
@@ -26,6 +26,11 @@ const config: Config = {
         darkGrey: "#878787",
         white: "#FFFFFF",
         accent: "#FF6200",
+        lightPink: "#C26EB4",
+        lightPurple: "#7E6CAB",
+        skyBlue: "#E0F3FA",
+        lightPeach: "#FFE6E9",
+        customPink: "#FFE6F1",
       },
       fontFamily: {
         manrope: ["Manrope", "sans-serif"], // Custom font family
@@ -60,7 +65,7 @@ const config: Config = {
         wide: "0.05em", // Slightly wide
         wider: "0.1em", // More space
         widest: "0.25em",
-        '0': "0px" //no character spacing
+        "0": "0px", //no character spacing
       },
       textTransform: {
         titlecase: "titlecase",

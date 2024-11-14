@@ -2,6 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px; /* Scrollbar width */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: lightgrey; 
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: var(--darkNavy); 
+  border-radius: 10px; 
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: #1e3a8a; 
+}
+
+
+
 @layer utilities{
     .body-regular{
         @apply text-14 font-normal tracking-0 leading-19 text-darkNavy
@@ -19,13 +41,10 @@
         @apply text-30 font-800 tracking-0 leading-41 text-darkNavy
     }
     .manrope-regular{
-        @apply text-12 font-normal tracking-0 leading-17 text-darkNavy
+        @apply text-[12px] font-normal tracking-0 leading-17 text-darkNavy
     }
     .inner-card-title{
         @apply text-18 font-bold tracking-0 leading-24 text-darkNavy capitalize
-    }
-    .manrope-bold{
-        @apply text-14 font-bold tracking-0 leading-19 text-darkNavy capitalize
     }
     .manrope-bold{
         @apply text-14 font-bold tracking-0 leading-19 text-darkNavy capitalize
@@ -34,13 +53,13 @@
         @apply text-22 font-bold tracking-0 leading-30 text-darkNavy capitalize
     }
     .manrope-medium-sm{
-        @apply text-14 font-semibold tracking-0 leading-19 text-darkNavy capitalize
+        @apply text-[12px] font-semibold tracking-0 leading-19 text-darkNavy capitalize
     }
     .manrope-regular-lg{
         @apply text-14 font-normal tracking-0 leading-19 text-darkNavy capitalize
     }
     .manrope-regular-md{
-        @apply text-13 font-semibold tracking-0 leading-18 text-darkNavy capitalize
+        @apply text-[13px] font-semibold tracking-0 leading-18 text-darkNavy capitalize
     }
     .body-secondary-info{
         @apply text-14 font-semibold tracking-0 leading-19 text-grey
